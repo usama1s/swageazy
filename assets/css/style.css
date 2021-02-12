@@ -1,0 +1,292 @@
+body{
+min-width: 360px;
+}
+button,
+input,
+a{
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+nav{
+  height: 70px;
+  padding: 30px 15px;
+}
+nav .brand{
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+nav .brand img{
+  height: 100%;
+}
+nav ul{
+  vertical-align: middle;
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+
+  float: right;
+}
+nav ul li{
+  display: inline-block;
+  padding: 13px 40px;
+  border-radius: 50px;
+}
+nav ul li a{
+  font-size: 18px;
+  font-family: Segoe UI;
+  font-weight: bold;
+  color: #0079BF;
+}
+
+
+nav button{
+  float: right;
+  vertical-align: middle;
+  background: transparent;
+  padding: 0;
+  border:0;
+  display: none;
+  margin-top: 15px;
+}
+nav button i{
+  font-size: 20px;
+  color: #0079BF;
+}
+
+
+
+.home-sec{
+  font-family: Gotham;
+  text-align: center;
+}
+.home-div{
+  min-height: 80vh;
+  position: relative;
+  overflow: hidden;
+}
+.home-info{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.home-info h1{
+  font-size: 48px;
+  font-weight: 400;
+  color: #0079BF;
+  margin: 5px 0;
+}
+.home-info h2{
+  font-size: 58px;
+  font-weight: 400;
+  color: #707070;
+  margin: 5px 0;
+}
+.home-info h3{
+  font-size: 20px;
+  font-weight: 300;
+  color: #707070;
+  margin: 5px 0 40px 0;
+}
+.home-info button{
+  padding: 13px 40px;
+  background: #0079BF;
+  color: white;
+  border: 1px solid #0079BF;
+  border-radius: 30px;
+  font-weight: bold;
+  font-weight: 100;
+}
+
+.home-div img{
+  position: absolute;
+  transform: translate(-50%,-50%) scale(0.4);
+  z-index: -1;
+}
+.home-div .circles{
+  position: absolute;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+}
+.home-div .bag-background{
+  top: 15%;
+  left: 70%;
+  animation: bag-b-k 1s 1;
+}
+@keyframes bag-b-k {
+  from{
+    transform: translate(-30%,-80%) rotate(180deg) scale(0.4);
+  }
+  to{
+    transform: translate(-50%,-50%) scale(0.4);
+  }
+}
+.home-div .notebook-background{
+  top: 20%;
+  left: 30%;
+  animation: notebook-b-k 1s 1;
+}
+@keyframes notebook-b-k {
+  from{
+    transform: translate(-80%,-80%) rotate(180deg) scale(0.4);
+  }
+  to{
+    transform: translate(-50%,-50%) scale(0.4);
+  }
+}
+.home-div .pen-background{
+  top: 40%;
+  left: 10%;
+  animation: pen-b-k 1s 1;
+}
+@keyframes pen-b-k {
+  from{
+    transform: translate(-80%,-50%) rotate(180deg) scale(0.4);
+  }
+  to{
+    transform: translate(-50%,-50%) scale(0.4);
+  }
+}
+.home-div .tshirt-background{
+  top: 65%;
+  left: 30%;
+  animation: tshirt-b-k 1s 1;
+}
+@keyframes tshirt-b-k {
+  from{
+    transform: translate(-80%,-20%) rotate(180deg) scale(0.4);
+  }
+  to{
+    transform: translate(-50%,-50%) scale(0.4);
+  }
+}
+
+.home-div .shoping-bag-background{
+  top: 50%;
+  left: 80%;
+  animation: shoping-bag-b-k 1s 1;
+}
+@keyframes shoping-bag-b-k {
+  from{
+    transform: translate(-20%,-20%) rotate(180deg) scale(0.4);
+  }
+  to{
+    transform: translate(-50%,-50%) scale(0.4);
+  }
+}
+.home-div .mug-background{
+  top: 70%;
+  left: 60%;
+  animation: mug-b-k 1s 1;
+}
+@keyframes mug-b-k {
+  from{
+    transform: translate(-50%,-20%) rotate(180deg) scale(0.4);
+  }
+  to{
+    transform: translate(-50%,-50%) scale(0.4);
+  }
+}
+/* .home-div .shoping-background{
+  top: 40%;
+  left: 10%;
+} */
+.home-div .circle-1{
+  top: 10%;
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  background: #0079BF;
+  animation: circle1-k 1s 1;
+}
+@keyframes circle1-k {
+  from{
+    transform: translate(-350%,-350%);
+  }
+  to{
+    transform: translate(-50%,-50%);
+  }
+}
+.home-div .circle-2{
+  top: 40%;
+  left: 5%;
+  width: 10px;
+  height: 10px;
+  background: #0FDAC1;
+  animation: circle2-k 1s 1;
+}
+@keyframes circle2-k {
+  from{
+    transform: translate(-450%,-20%);
+  }
+  to{
+    transform: translate(-50%,-50%);
+  }
+}
+.home-div .circle-3{
+  top: 60%;
+  left: 15%;
+  width: 20px;
+  height: 20px;
+  background: #2128BD;
+  animation: circle3-k 1s 1;
+}
+@keyframes circle3-k {
+  from{
+    transform: translate(-550%,+350%);
+  }
+  to{
+    transform: translate(-50%,-50%);
+  }
+}
+.home-div .circle-4{
+  left: 85%;
+  top: 10%;
+  width: 30px;
+  height: 30px;
+  background: #0079BF;
+  animation: circle4-k 1s 1;
+}
+@keyframes circle4-k {
+  from{
+    transform: translate(+350%,-150%);
+  }
+  to{
+    transform: translate(-50%,-50%);
+  }
+}
+.home-div .circle-5{
+  top: 39%;
+  left: 85%;
+  width: 22px;
+  height: 22px;
+  background: #2128BD;
+  animation: circle5-k 1s 1;
+}
+@keyframes circle5-k {
+  from{
+    transform: translate(+350%,+250%);
+  }
+  to{
+    transform: translate(-50%,-50%);
+  }
+}
+.home-div .circle-6{
+  top: 47%;
+  left: 68%;
+  width: 8px;
+  height: 8px;
+  background: #0FDAC1 ;
+  animation: circle6-k 1s 1;
+}
+@keyframes circle6-k {
+  from{
+    transform: translate(+250%,+450%);
+  }
+  to{
+    transform: translate(-50%,-50%);
+  }
+}
